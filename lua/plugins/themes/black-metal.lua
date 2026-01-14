@@ -17,9 +17,9 @@ return {
           toggle_variant_key = nil,
           transparent = true,
         })
-        require("black-metal").load()
+        --require("black-metal").load()
 
-        vim.cmd("colorscheme gorgoroth")
+        --vim.cmd("colorscheme gorgoroth")
 
         -- Line highlighter
         --vim.api.nvim_set_hl(0, "CursorLine", { bg = "#303030" })
